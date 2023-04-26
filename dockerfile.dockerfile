@@ -6,4 +6,4 @@ RUN unzip photogenic.zip
 RUN cp -rvf photogenic/* .
 RUN rm -rf photogenic photogenic.zip
 CMD ["/usr/sbin/httpd", "-D", "FOURGROUND"]
-EXPOSE 80
+EXPOSE 80 22
